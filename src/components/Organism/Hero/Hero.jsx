@@ -1,9 +1,11 @@
+import ScrollButton from '@/components/Atoms/ScrollButton/ScrollButton'
 import React from 'react'
 
 function Hero() {
     return (
-        <div className='h-1/2 w-full flex justify-center relative'>
-            <img src='/Hero.png' className='z-10' />
+        <div className="relative h-screen flex flex-col justify-center items-center text-white">
+            <img src='/Hero_NEW.png' className='h-screen' />
+            <ScrollButton targetId="next-section" />
         </div>
     )
 }
